@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.main-body{
+    height: 100%;
+    background-color: black;
+    color: white;
+
+}
+.fas{
+    color: #ccffff;
+}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Including bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+      <!-- Including CSS file -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body >
+    
+    <div class="d-flex flex-column justify-content-center align-items-center main-body">
+        
+        <i class="fas fa-cloud-sun-rain fa-7x"></i>
+        <h1 class="m-4">Weather App</h1>
+        <form class="d-flex"  action="/" method="POST">
+            <input class="form-control" type="text" name="cityname"  placeholder="Enter here..." autocomplete="off">
+            <button class="btn ms-3 btn-primary" type="submit">Go</button>
+        </form>
+    </div>
+    
+    <!-- Including fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/867c880104.js" crossorigin="anonymous"></script>
+</body>
+</html>
